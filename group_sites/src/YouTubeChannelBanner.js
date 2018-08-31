@@ -11,6 +11,7 @@ class YouTubeChannelBanner extends Component {
                     <ul>
 
                         <li className="btn google-plus">
+
                             <i className="fab fa-google-plus-square" aria-hidden="true"></i>
                         </li>
 
