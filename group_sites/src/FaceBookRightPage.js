@@ -5,24 +5,26 @@ class FaceBookRightPage extends Component {
     render() {
         return (
             <div id="rightbod">
-                <div className="signup bolder"></div>
-                <div className="free bolder"></div>
+                <div className="signup bolder"> Sign Up</div>
+                <div className="free bolder">It's free and always will be</div>
 
-                <div className="formbox">
+                <div className="formbox">First Name
+                </div>
+                <div className="formbox">Last Name
+                </div>
+                <div className="formbox">Email or Moble Number
+                </div>
+                <div className="formbox">Re-Enter Email or Moble Number
+                </div>
+                <div className="formbox">New Password
                 </div>
                 <div className="formbox">
-                </div>
-                <div className="formbox">
-                </div>
-                <div className="formbox">
-                </div>
-                <div className="formbox">
-                    <div className="bday"></div>
+                    <div className="bday">Birthday</div>
                 </div>
                 <div className="formbox">
                                 <span data-type="selectors">
                                     <select title="Month" className="selectbody">
-                                        <option value="0" selected="1"></option><option
+                                        <option value="0" selected="1">Month</option><option
                                         value="1">Jan</option><option value="2">Feb</option><option
                                         value="3">Mar</option><option
                                         value="4">Apr</option><option value="5">May</option><option
@@ -32,7 +34,7 @@ class FaceBookRightPage extends Component {
                                         value="10">Oct</option><option value="11">Nov</option><option
                                         value="12">Dec</option></select>
                                     <select title="Day" className="selectbody fl">
-                                        <option value="0" selected="1"></option><option
+                                        <option value="0" selected="1">Day</option><option
                                         value="1">1</option><option value="2">2</option><option value="3">3</option><option
                                         value="4">4</option><option value="5">5</option><option value="6">6</option><option
                                         value="7">7</option><option value="8">8</option><option value="9">9</option><option
@@ -52,7 +54,7 @@ class FaceBookRightPage extends Component {
                                         value="30">30</option><option
                                         value="31">31</option></select>
                                     <select title="Year" className="selectbody fl">
-                                        <option value="0" selected="1"></option><option
+                                        <option value="0" selected="1">Year</option><option
                                         value="2015">2015</option><option value="2014">2014</option><option
                                         value="2013">2013</option><option
                                         value="2012">2012</option><option value="2011">2011</option><option
@@ -129,12 +131,12 @@ class FaceBookRightPage extends Component {
                                         value="1905">1905</option>
                                     </select>
                                 </span>
-                    <div className="fb1 why h"></div>
+                    <div className="fb1 why h">Why do i need to provide my birthday?</div>
                 </div>
                 <div className="formbox mt1">
                                 <span data-type="radio" className="spanpad">
-                                <label htmlFor="fem" className="gender"></label>
-                                <label htmlFor="male" className="gender"></label>
+                                <label htmlFor="fem" className="gender">Female</label>
+                                <label htmlFor="male" className="gender">Male</label>
                               </span>
                 </div>
                 <div className="formbox">
@@ -144,12 +146,12 @@ class FaceBookRightPage extends Component {
                         <div className="link"></div>.
                     </div>
                 </div>
-                <div className="formbox">
-                    <button type="submit" className="signbut bolder"></button>
+                <div className="formbox">By clicking Sign Up, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.
+                    <br/> <button type="submit" className="signbut bolder">Sign Up</button>
                 </div>
                 <div className="formbox">
                     <div className="create">
-                        <div className="link h"></div>
+                        <div className="link h">Create a page for a celebrity, band, or buisness</div>
                     </div>
                 </div>
             </div>
